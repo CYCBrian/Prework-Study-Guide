@@ -18,9 +18,19 @@
         <ul>
           <li>Hypertext Markup Language (HTML) - to give the web content structure (i.e. the frame).</li>
           <br>
+          <li>Nesting - when one or more elements are placed inside another elements, allow applying of multiple HTML tags to a single piece of content. The entire element (including its markup) must be within the start and end tags of the containing element (the parent).</li>
+          <br>
+          <li>Child elements - elements that are nested inside other elements.</li>
+          <br>
+          <li>Parent element - the element that nests the child elements.</li>
+          <br>
           <li>Element - a type of content on a webpage, used to add content to the pages themselves, to divide the content on the page, and to describe the content to browswers and other developers.</li>
           <br>
-          <li>Attribute - defines additional information about an element. NOTE: attributes are always defines in the beginning tag, never the closing tag.</li>
+          <li>Metadata - elements that contain data about the webpage that the browser uses to serve the webpage to users. Not seen by users, but contains information about accessibility, search engines, and performance.</li>
+          <br>
+          <li>Semantic HTML elements - the name of the element describing its content and the role it plays on a webpage. Makes it easier to read for developers and browsers. Ensures accessibility to a variety of uers (e.g. those who use screen readers). Not mandatory, but best practise is to use it where possible.</li>
+          <br>
+          <li>Attribute - defines additional information about an element. NOTE: attributes are always defines in the opening tag, never the closing tag.</li>
         </ul>
       </section>
       
@@ -34,23 +44,25 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status - to check which brach we are currently on.</li>
+          <li>git status - to check which branch we are currently on.</li>
           <br>
-          <li>git clone "SSH Code" - clones the repository from the clous to your local computer.</li>
+          <li>git clone "SSH Code" - clones the repository from the cloud to your local computer.</li>
           <br>
-          <li>git more -v - to ensure that there is a connection ebtween the local repository and remote repository.</li>
+          <li>git remote -v - to ensure that there is a connection between the local repository and remote repository.</li>
           <br>
-          <li>git checkout main - to move (chekcout) from the current working branch to the main brach (main)</li>
+          <li>git checkout main - to move (chekcout) from the current working branch to the main brach (main).</li>
           <br>
-          <li>git checkout -b "Branch Name" - to move (chekcout) from the current working branch to a new branch (-b) called "Branch Name"</li>
+          <li>git checkout -b "Branch Name" - to move (chekcout) from the current working branch to a new branch (-b) called "Branch Name".</li>
           <br>
-          <li>git add -A - to add modifications in the current working branch to the stagin area. The -A flag indicates that we want to add all changes in the current working branch.</li>
+          <li>git add -A - to add modifications in the current working branch to the staging area. The -A flag indicates that we want to add all changes in the current working branch.</li>
           <br>
           <li>git commit -m "add ..." - a commit message that describes what the commit contains. Creates a snapshot of the currently stage changes.</li>
           <br>
-          <li>git pull origin main - to receive (pull) a branch's modification into the local environment. (origin) indicates te source of the pull will be in the GitHub repo. (main) indicates the branch. In this case, the main branch.</li>
+          <li>git pull origin main - to receive (pull) a branch's modification into the local environment. (origin) indicates the source of the pull will be in the GitHub repo. (main) indicates the branch. In this case, the main branch.</li>
           <br>
           <li>git push origin "Branch Name" - to push (push) the changes we have locally to our remote GitHub branch.</li>
+          <br>
+          <li>git branch - displays a list of all available branches.</li>
         </ul>
       </section>
    
