@@ -30,7 +30,59 @@
           <br>
           <li>Semantic HTML elements - the name of the element describing its content and the role it plays on a webpage. Makes it easier to read for developers and browsers. Ensures accessibility to a variety of uers (e.g. those who use screen readers). Not mandatory, but best practise is to use it where possible.</li>
           <br>
+          <li>head - element containing metadata that helps the browser to read the page correctly. Not visible when a user looks at a webpage.</li>
+          <br>
+          <li>body - element containing the content that is shown to the user. All the elements that we want the user to see and interact with must be placed inside this element.</li>
+          <br>
+          <li>!DOCTYPE "doct ype" - element of declaration to tell the browser what document type it should expect when it is opened.</li>
+          <br>
+          <li>title - element that defines the title for a webpage. Required for Search Engine optimization (SEO).</li>
+          <br>
+          <li>style - element that defines the CSS styles associated with a website.</li>
+          <br>
+          <li>base - element that defines the base URL for a webpage.</li>
+          <br>
+          <li>link - element that connects an external resource to the HTML document.</li>
+          <br>
+          <li>script - element that embeds the client-side scripts in the HTML document.</li>
+          <br>
+          <li>meta charset="charset" - element that defines the characters set (e.g. UTF-8).</li>
+          <br>
+          <li>meta http-equiv="http-equiv" - element that sets the HTTP header for content.</li>
+          <br>
+          <li>meta viewpoint-"viewpoint" - element that sets the default view for our webpage (i.e. the first thing you see e.g. homepage).</li>
+          <br>
+          <li>div - element that creates a division in the page.</li>
+          <br>
+          <li>span - element that creates an inline division.</li>
+          <br>
+          <li>h"n" - element to represent the level of heading a given text block represents. h1 is the largest, then gets smaller and smaller. h1, the biggest header, should only appear once on each page.</li>
+          <br>
+          <li>p - element to represent a paragraph or block of text.</li>
+          <br>
+          <li>ul - element to represent an unordered list.</li>
+          <br>
+          <li>ol - element to represent ordered list.</li>
+          <br>
+          <li>li - element to represent an list item.</li>
+          <br>
+          <li>img - element that contains information about images that are displayed on the webpage.</li>
+          <br>
+          <li>br - element that creates a line of empty space, or a line break, between two blocks of content.</li>
+          <br>
+          <li>a - element that creates links to the same webpage or other webpages.</li>
+          <br>
+          <li>selection - semantic element that defines a section in a document that contains thematic content.</li>
+          <br>
           <li>Attribute - defines additional information about an element. NOTE: attributes are always defines in the opening tag, never the closing tag.</li>
+          <br>
+          <li>src="" - attribute that defines the location of an image. Placed inside of the img element.</li>
+          <br>
+          <li>alt="" - attribute that defines alernative information for an image if a user cannot view it. Important for assistive technologies, and can improve search engine rnkings for your website.</li>
+          <br>
+          <li>href="" - attribute that points to the URL for the link.</li>
+          <br>
+          <li>id="" - attribute to identify elements and select them.</li>
         </ul>
       </section>
       
@@ -44,6 +96,8 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>Git commands - alwyas start with git and are used to save and track versions of your code. Using Git commands, we can initiate (or create) a repo, add our code to the repo, and view the different versions of the ocode, which are each stored in a unique commit.</li>
+          <br>
           <li>git status - to check which branch we are currently on.</li>
           <br>
           <li>git clone "SSH Code" - clones the repository from the cloud to your local computer.</li>
@@ -72,9 +126,91 @@
           <li>Enter your JavaScript notes here</li>
         </ul>
       </section>
+
+      <section class="card" is="bashcommand-section">
+        <h2>Bash Commands</h2>
+        <ul>
+          <li>ls - list files and directories.</li>
+          <br>
+          <li>cd - change directory.</li>
+          <br>
+          <li>pwd - print working direcotry (i.e. where am I?).</li>
+          <br>
+          <li>mkdir - make directory.</li>
+          <br>
+          <li>touch - create a new file.</li>
+          <br>
+          <li>start "file name" - open the selected file.</li>
+          <br>
+          <li>-al - in.</li>
+          <br>
+          <li> ~/ - if they exist.</li>
+          <br>
+          <li>code . "file name" - open the code in that file via VScode.</li>
+        </ul>
+      </section>
+
+      <section class="card" is="terminologies-section">
+        <h2>Termanologies</h2>
+        <ul>
+          <li>SSH key - an access credential for the secure shell (SSH) network protocal. Generating SSH keys allow developers to interface with certain remote services without having to constantly retype login information.</li>
+          <br>
+          <li>MVP - a minimum viable product.</li>
+          <br>
+          <li>SHA (hash) - to access a version of the code.</li>
+          <br>
+          <li>Git - a version control system that lets you manage and keep track of each version of your project. A tool that allows developers and others to use version control.</li>
+          <br>
+          <li>GitHub - one of many web interfaces for using Git.</li>
+          <br>
+          <li>Organization (org) - a grouping mechanism allowing teams to collaborate across many projects at once.</li>
+          <br>
+          <li>Repository (repo) - a folder in which all files and their version histories are stored.</li>
+          <br>
+          <li>Branch - a version of the repo that allows work without affecting other branches. Repos may have many branches for different possible changes being tested or considered, along with a default branch that serves as the main version of code that all other branches are merged into.</li>
+          <br>
+          <li>Fork - a new repository that inherits from a parent "upstream" repo. It is used to suggest changes to the "upstream" public repo by someone who doesn't have access to edit in the repo's home org.</li>
+          <br>
+          <li>Markdown (.md) - a way to write content that converts plan text to formatted text. A plain text formatting syntax aimed at making writing for the internet easier.</li>
+          <br>
+          <li>Commit Chnages - a saved record of the changes made to a file within the repo.</li>
+          <br>
+          <li>Pull Request (PR) - a request for changes made to a branch to be pulled into another branch. Allows multiple users to see, discuss and review working being suggested.</li>
+          <br>
+          <li>Merge - after a pull request is approves, the commit will be pulled in (or merged) from one branch to another and then, deployed to the live site.</li>
+          <br>
+          <li>Issues - allow users to report issues/bugs and track progress of assigning the fix for the issues.</li>
+          <br>
+          <li>Federalist - a platform that securely deploys a website from a GitHub repository and lets users preview proposed and published changes.</li>
+          <br>
+          <li>Projects - allows you to use GitHub for project management and tracking a set of issues, either for a specific repo or an entire org.</li>
+          <br>
+          <li>Wiki - a section of a repo made for hosting documentation. Documentation may be in the repo's README files instead.</li>
+          <br>
+          <li>Readme file - uses the markdown language with extention .md. Can contain descriptions of a repository, images, techs used, and set up instructions.</li>
+          <br>
+          <li>.gitignore file - tells git to not trach this file from our local machine. Useful as a security measure. To use, type the name of the file that contain your personal information inside of the .gitignore file, so that that file is ignored when syncing the local code with the repository in the cloud.</li>
+          <br>
+          <li>Fetch - fetch any new changes from the remote repository to the local repository.</li>
+          <br>
+          <li>Push - push any code from the local repository to the remote repository.</li>
+          <br>
+          <li>GitHub issues - give devlopers and teams an easy way to keep track of key tasks and progress. Track, organize, and communicate ideas, tasks, bugs, and enchancements. Identify bottlenecks or blockers that can prevent work progress. Avoid duplicating work by sassigning tasks or issues.</li>
+          <br>
+          <li>Blocker - getting stuck on a particular problem that is preventing you from moving forward.</li>
+          <br>
+          <li>Bottleneck - a point in the development process that is slowing down the rest of production.</li>
+          <br>
+          <li>Feature - a functional part of the application or website that has value or fulfills a need in the business.</li>
+          <br>
+          <li>Intergrated Development Environment (IDE) - a type of software used by developers that combines many of the features needed by developers to do their work in a single interface, known as a graphical user interface (GUI).</li>
+          <br>
+          <li>Uniform Resource Locator (URL) - unique address given to a specific resource on the web.</li>
+        </ul>
+      </section>
     </main>
 
 <br>
 
     </main>
-html>
+</html>
