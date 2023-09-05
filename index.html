@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
+      <br>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
+    <br>
     <main>
 
       <section class="card" id="html-section">
+        <br>
         <h2>HTML</h2>
+        <br>
         <ul>
           <li>Hypertext Markup Language (HTML) - to give the web content structure (i.e. the frame).</li>
           <br>
@@ -42,7 +47,7 @@
           <br>
           <li>base - element that defines the base URL for a webpage.</li>
           <br>
-          <li>link - element that connects an external resource to the HTML document.</li>
+          <li>link - element that connects an external resource to the HTML document. Placed after the final meta element and before the title element.</li>
           <br>
           <li>script - element that embeds the client-side scripts in the HTML document.</li>
           <br>
@@ -72,6 +77,10 @@
           <br>
           <li>a - element that creates links to the same webpage or other webpages.</li>
           <br>
+          <li>style - element used in the head element. Defines the CSS rules for the corresponing page.</li>
+          <br>
+          <li>link - element that links a file (e.g. linking a CSS to the head element in the HTML)</li>
+          <br>
           <li>selection - semantic element that defines a section in a document that contains thematic content.</li>
           <br>
           <li>Attribute - defines additional information about an element. NOTE: attributes are always defines in the opening tag, never the closing tag.</li>
@@ -80,23 +89,69 @@
           <br>
           <li>alt="" - attribute that defines alernative information for an image if a user cannot view it. Important for assistive technologies, and can improve search engine rnkings for your website.</li>
           <br>
-          <li>href="" - attribute that points to the URL for the link.</li>
+          <li>href="path" - attribute that points to the URL for the link. Specifies the location (URL) of the external resouce.</li>
           <br>
           <li>id="" - attribute to identify elements and select them.</li>
+          <br>
+          <li>rel - attribute that specifies the relationship between the current document and the linked document resource.</li>
+          <br>
+          <li>style="styletype:style": - attribute that changes a style of a single element.</li>
         </ul>
+        <br>
       </section>
-      
+
+      <br>
+      <br>
+
       <section class="card" id="css-section">
+        <br>
         <h2>CSS</h2>
+        <br>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Cascading Style Sheet (CSS) - a programing language used to define how webpage content is presented to users. Defines the colours, aesthetics, visual layout, and organization. Basically the language to define style rules for specific elements of an HTML page and format them using a range of style options.</li>
+          <br>
+          <li>Inline CSS - when a developer styles an element directly inthe HTML file. Applies to a specific HTML tag, using a style attribute with a CSS rule to style a particular page element only. Useful for quick and permanent changes but less flexcible than external and internal style sheets, because each inline style must be edited individually whenever you make a design change.</li>
+          <br>
+          <li>Internal Style Sheet - contains CSS rules for the webpage in the heal section of the HTML file. The rules only apply to that page, and you can configure CSS classes and IDs, which are used to identify elements, to style multiple elements in the page cose. A single change to the CSS rule in the internal style shee will apply to all tagged page elements in that one page.</li>
+          <br>
+          <li>External CSS Style Sheet - most preferred because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier. When using an external style sheet, we link the file using a link element placed in the HTML's head elelment.</li>
+          <br>
+          <li>.css - a CSS file.</li>
+          <br>
+          <li>CSS rule - selector/s (separate each selector with a comma) {property: value; property: value;...} the groups of property and their value is called a Declaration. Everything within the wiggly bracket is a Declaration Block.</li>
+          <br>
+          <li>Selector - defines the element or attributes to which the rules, or declarations, will apply.</li>
+          <br>
+          <li>Declarations - contain two componenets: the CSS property that is to be applies and the value of the property.</li>
+          <br>
+          <li>Margin - property that indicates how much space we want around the outside of an element.</li>
+          <br>
+          <li>Padding - property that adds space around the content inside an element.</li>
+          <br>
+          <li>CSS Box Model - every HTML element is a box, consisting of margins outside the element, the element's borders, padding, and the content.</li>
+          <br>
+          <li>* - used to apply a rule to all the elements visible on the page. Declares that ALL elements on the page will have the describes style properties.</li>
+          <br>
+          <li>text-align: "text-align type"; - type of positioning property.</li>
+          <br>
+          <li>img - selector that assigns property values to any image element in the markup</li>
+          <br>
+          <li>display: block; - the display property is assigned the block value, which assigns each image to start on a new line.</li>
+          <br>
+          <li>Class attribute - Used to add styles to certain elements, but not all elements. Allows the sharing of a CSS rule to any element we choose by assigned the rule to a class attribute with a class selector (."class"). The Class attribute can be assigned to the element in the HTML, enable coder to freely choose which elements will be assigned the CSS rule. Basically, when coding in the HTML file, you can designate certain block of code as a specific class. Then by using ."class" in the CSS, we can change the style and whatnot of every blocks of code that has the designated class.</li>
         </ul>
+        <br>
       </section>
-   
+
+      <br>
+      <br>
+
       <section class="card" id="git-section">
+        <br>
         <h2>Git</h2>
+        <br>
         <ul>
-          <li>Git commands - alwyas start with git and are used to save and track versions of your code. Using Git commands, we can initiate (or create) a repo, add our code to the repo, and view the different versions of the ocode, which are each stored in a unique commit.</li>
+          <li>Git Commands - alwyas start with git and are used to save and track versions of your code. Using Git commands, we can initiate (or create) a repo, add our code to the repo, and view the different versions of the ocode, which are each stored in a unique commit.</li>
           <br>
           <li>git status - to check which branch we are currently on.</li>
           <br>
@@ -118,17 +173,29 @@
           <br>
           <li>git branch - displays a list of all available branches.</li>
         </ul>
+        <br>
       </section>
-   
+
+      <br>
+      <br> 
+
       <section class="card" id="javascript-section">
+        <br>
         <h2>JavaScript</h2>
+        <br>
         <ul>
           <li>Enter your JavaScript notes here</li>
         </ul>
+        <br>
       </section>
 
+      <br>
+      <br>
+
       <section class="card" is="bashcommand-section">
+        <br>
         <h2>Bash Commands</h2>
+        <br>
         <ul>
           <li>ls - list files and directories.</li>
           <br>
@@ -148,10 +215,16 @@
           <br>
           <li>code . "file name" - open the code in that file via VScode.</li>
         </ul>
+        <br>
       </section>
 
+      <br>
+      <br>
+
       <section class="card" is="terminologies-section">
+        <br>
         <h2>Termanologies</h2>
+        <br>
         <ul>
           <li>SSH key - an access credential for the secure shell (SSH) network protocal. Generating SSH keys allow developers to interface with certain remote services without having to constantly retype login information.</li>
           <br>
@@ -191,6 +264,10 @@
           <br>
           <li>.gitignore file - tells git to not trach this file from our local machine. Useful as a security measure. To use, type the name of the file that contain your personal information inside of the .gitignore file, so that that file is ignored when syncing the local code with the repository in the cloud.</li>
           <br>
+          <li>index.html - document where you html codes goes.</li>
+          <br>
+          <li>assets - folder where your CSS and non-html stuff goes (e.g. images, videos, sounds, music, gif all that ish).</li>
+          <br>
           <li>Fetch - fetch any new changes from the remote repository to the local repository.</li>
           <br>
           <li>Push - push any code from the local repository to the remote repository.</li>
@@ -206,11 +283,22 @@
           <li>Intergrated Development Environment (IDE) - a type of software used by developers that combines many of the features needed by developers to do their work in a single interface, known as a graphical user interface (GUI).</li>
           <br>
           <li>Uniform Resource Locator (URL) - unique address given to a specific resource on the web.</li>
+          <br>
+          <li>Separation of Concerns - separating code into different files based on use. Based on the idea that each section of code should have its own responsibility.</li>
+          <br>
+          <li>Do Not Repeat yourself (DRY) - a coding principle that encourages developers to reuse or share pieves of code in order to reduce the number of lines of code that need to be written or maintained. Reduces the overall size and complexity of a codebase.</li>
         </ul>
+        <br>
       </section>
+
     </main>
 
 <br>
+<br>
 
-    </main>
+    <footer>
+      <p>I can code!</p>
+      <p>Kind of...</p>
+    </footer>
+  </body>
 </html>
