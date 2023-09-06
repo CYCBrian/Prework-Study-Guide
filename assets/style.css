@@ -23,6 +23,7 @@
     width: 50px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
    }
    
    ul {
@@ -42,6 +43,7 @@
     border: 5px solid rgb(210, 100, 120);
     box-shadow: 5px 10px #0000005d;
     background-color: rgb(255, 220, 180);
+    border-radius: 20px 60px;
   }
 
    .card2 {
@@ -50,6 +52,7 @@
     border: 5px solid rgb(170, 110, 220);
     box-shadow: 5px 10px #0000005d;
     background-color: rgb(255, 220, 180);
+    border-radius: 20px 60px;
   }
 
   body {
