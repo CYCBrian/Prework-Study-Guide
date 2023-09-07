@@ -1,6 +1,8 @@
 # Brian's Prework-Study-Guide
 ## Created as part of the pre-work module for the UofT x edX WebDev bootcamp.
 
+https://cycbrian.github.io/Prework-Study-Guide/
+
 ## Description
 
 This is my first ever coding project; a study guide for the pre-work modules of the UofT x edX WebDev Bootcamp.
