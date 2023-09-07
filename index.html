@@ -216,7 +216,7 @@
       <br>
       <br>
 
-      <section class="card2" is="bashcommand-section">
+      <section class="card2" id="bashcommand-section">
         <br>
         <h2>Bash Commands</h2>
         <br>
@@ -276,9 +276,40 @@
       </section>
 
       <br>
+      <br>
+
+      <section class="card2" id="deployment-section">
+        <br>
+        <h2>Deployment</h2>
+        <br>
+        <ul>
+          <li>Deployment - making a website "live" on the internet and available for viewing by giving it a unique address (URL).</li>
+          <br>
+          <li>Frontend Only Application - sites deployed using static servers (e.g. GitHub Pages).</li>
+          <br>
+          <li>Full-Stack Application - non-static applications with more advanced data manipulation. Data is used with a template engine to generate statis HTML from the server which is then sent to the client. Requires more robust deployment services.</li>
+          <br>
+          <li>Backend and Frontend Application - applications using microservices, which handles dedicated parts of the application. Makes the architecture more modular and reusable for different client-side platforms.</li>
+          <br>
+          <li>Serverless - no backend application at all. All APIs are build as several cloud functions that run on-demand which then have URLs for your frontend to call them. No persistent backend server, lower-cost of static hosting for the frontend, very affordable even at large scales.</li>
+          <br>
+          <li>Continuous Deployment - concept of creating an automated pipeline of your deployment process (e.g. updating your code on GitHub which then triggers automation that ends in the project being deployed. Also used to integrate code from others into a project automating a pipeline of tests (i.e. Continuous Integrationg).</li>
+          <br>
+          <li>Project Site - GitHub Pages site connected to a specific project hosted on GitHub. Stored in the same repository as their project (i.e. https://"username OR organization"/github.io/"repository").</li>
+          <br>
+          <li>User Site - GitHub Pages site connected to a specifc account on GitHub.xom. Must create a repository owned by your personal account that's named "username".github.io.</li>
+          <br>
+          <li>Organization Site - GitHub Pages site connected to a repository owned by an organization that's named "organization".github.io.</li>
+          <br>
+          <li>Publishing Source - the branch from which the data will be published into a website.</li>
+        </ul>
+        <br>
+      </section>
+
+      <br>
       <br> 
 
-      <section class="card2" is="terminologies-section">
+      <section class="card1" id="other-terminologies-section">
         <br>
         <h2>Other Termanologies</h2>
         <br>
@@ -344,8 +375,6 @@
           <li>Separation of Concerns - separating code into different files based on use. Based on the idea that each section of code should have its own responsibility.</li>
           <br>
           <li>Do Not Repeat yourself (DRY) - a coding principle that encourages developers to reuse or share pieves of code in order to reduce the number of lines of code that need to be written or maintained. Reduces the overall size and complexity of a codebase.</li>
-          <br>
-          <li>Deployment - making a website "live" on the internet and available for viewing by giving it a unique address (URL).</li>
         </ul>
         <br>
       </section>

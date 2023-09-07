@@ -7,7 +7,7 @@ This is my first ever coding project; a study guide for the pre-work modules of 
 
 It contains all the notes I've made while going through the modules and creating this website. Becasue I have a particularly smooth brain, I know I'm going to forgot a lot of the information. This will serve as a reference guide of sorts while I continue with the bootcamp.
 
-The sections include: HTML, CSS, JavaScript, Bash Commands, Git, and Other Termanologies.
+The sections include: HTML, CSS, JavaScript, Bash Commands, Git, Deployment, and Other Termanologies.
 
 ## Installation
 

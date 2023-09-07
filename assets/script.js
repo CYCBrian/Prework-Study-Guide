@@ -1,4 +1,4 @@
-var topics = ['HTML', 'CSS', 'JavaScript', 'Bash Commands', 'Git', 'Other Termanologies'];
+var topics = ['HTML', 'CSS', 'JavaScript', 'Bash Commands', 'Git', 'Deployment', 'Other Termanologies'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 function listTopics() {
@@ -18,6 +18,8 @@ function selecTopic() {
     console.log("Let's study Bash Commands!");
   } else if (randomTopic === 'Git') {
     console.log("Let's study Git!");
+  } else if (randomTopic === 'Deployment') {
+    console.log("Let's study Deployment!")
   } else if (randomTopic === 'Other Termanologies') {
     console.log("Let's study Other Termanologies!");
   } else {
